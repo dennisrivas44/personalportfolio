@@ -167,3 +167,12 @@
     margin: 2rem;
     font-family: 'Raleway', sans-serif;
   }
+  button{
+    width: 25%;
+    height: 30px;
+    background: linear-gradient(135deg, #8080ff, #66D083);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
