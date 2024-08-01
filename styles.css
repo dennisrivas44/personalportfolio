@@ -1,10 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
+}
+html {
+  scroll-behavior: smooth;
+}
   :root{
     --master-text: #FAF9F6;
     --main-gray: #303841; 
@@ -151,10 +151,11 @@
     color: inherit;
     transition: transform 0.3s ease;
   }
-  .contact-info p:hover{
+button:hover{
     transform: translateY(3px);
     cursor: pointer;
   }
+
   footer{
     height: 10vw;
     border-top: solid var(--blue) 5px;
@@ -168,11 +169,15 @@
     font-family: 'Raleway', sans-serif;
   }
   button{
-    width: 25%;
-    height: 30px;
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    margin-bottom: 10px;
     background: linear-gradient(135deg, #8080ff, #66D083);
     border: none;
     border-radius: 20px;
     cursor: pointer;
     font-weight: bold;
+    transition: width 1s ease-in-out, color 1s ease-in-out;
   }
+
