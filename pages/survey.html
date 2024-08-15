@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="../css/survey.css" />
+  <head>
+    <meta charset="UTF-8">
+    <title>freeCodeCamp Survey Form</title>
+    </head>
+  <body>
+    <nav id="navbar" class="nav">
+      <ul class="nav-links">
+        <li><a href="/index.html#about_me">About me</a></li>
+        <li><a href="/index.html#projects">Projects</a></li>
+        <li><a href="/index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="form_sectiond">
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve this platform</p>
+      
+      <form id="survey-form" type="text">
+        <fieldset><label for="name" id="name-label">Name*<input id="name" type="text" placeholder="Name" required></input></label>
+      <label for="email" id="email-label">Email*<input id="email" type="email" placeholder="Email" required></label>
+        <label for="number" id="number-label">Age<input id="number" type="number" min="33" max="1555999999" placeholder="Optional"></input></label></fieldset>
+        <fieldset>Would you recommend to a friend/colleage?
+          <label><input type="radio" class="inline" name="rec" value="3"> Definitely</input></label>
+          <label><input type="radio" class="inline" name="rec" value="2"> Maybe</input></label>
+          <label><input type="radio" class="inline" name="rec" value="1"> Not at all</input></label>
+        </fieldset>
+        <fieldset>How did you hear about freeCodeCamp?<label for="dropdown">
+          <select id="dropdown">
+              <option value="">Select an option</option>
+              <option value="1">Youtube</option>
+              <option value="2">Twitter</option>
+              <option value="3">Facebook</option>
+              <option value="4">Other</option>
+            </select>
+          </label>
+            </fieldset>
+        <fieldset>
+          <label for="check">How do you feel about freeCodeCamp?</label>
+          <input type="checkbox" class="check" value="4">Love it</input>
+          <input type="checkbox" class="check" value="3">Like it</input>
+          <input type="checkbox" class="check" value="2">Dislike it</input>
+          <input type="checkbox" class="check" value="1">Hate it</input>
+        
+        <label id="bio-label" for="bio">Is there anything you would like to see from us?</label><textarea id="bio"></textarea>
+          </fieldset>
+          <input id="submit" type="submit">
+          </form>
+    </div>
+        
+  </body>

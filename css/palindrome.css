@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: verdana;
+    background-color: #0a0a32
+  }
+  #palindrome-box{
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  #text-field{
+    padding: 40px;
+    font-weight: bold;
+  }
+  #text-field{
+    background-color: white;
+    color: black;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+  }
+  #text-field p{
+    padding-top: 10px;
+  }
+  #sub-note{
+    color: lightgreen;
+    background-color: grey;
+    padding: 10px;
+    top: 0;
+    border-radius: 20px;
+    width: 40vh;
+  }
